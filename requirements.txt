@@ -1,3 +1,22 @@
-streamlit
-google-generativeai
-python-dotenv
+# Core Web App
+streamlit>=1.38.0
+python-dotenv>=1.0.1
+
+# Google Gemini API
+google-generativeai>=0.8.3
+
+# Data handling
+pandas>=2.2.3
+numpy>=2.1.2
+
+# Sentiment Analysis & NLP
+scikit-learn>=1.5.2
+nltk>=3.9.1
+
+# Optional: Deep Learning & Embeddings
+# Note: sentence-transformers is heavy; use >=3.0.1 for the latest architecture
+sentence-transformers>=3.1.1
+
+# Serialization & Utilities
+joblib>=1.4.2
+pickle-mixin>=1.0.2
